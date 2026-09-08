@@ -40,3 +40,20 @@ git rm teste.txt
 git status
 git commit -m "Removendo arquivo de teste"
 git push
+RESPOSTA DA PERGUNTA: O COMANDO UTILIZADO FOI git rm teste.txt
+
+EXERCICIO 8
+git mv style.css estilo.css
+git status
+git commit -m "Renomeando style.css para estilo.css"
+git push
+
+EXERCICIO 9
+mkdir css
+git mv estilo.css css/estilo.css
+git status
+git commit -m "Movendo estilo.css para a pasta css"
+git push
+
+EXERCICIO 10
+Os arquivos .env não devem ser enviados, pois guardam informações da aplicação/projeto, como senha de bancos de dados, chaves de api e caminhos de segurança. Caso seja enviado para um repositório, as informações podem ficar expostas.
