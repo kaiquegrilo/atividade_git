@@ -1,6 +1,42 @@
+EXERCICIO 1
 git init
 git status
 git add .
 git status
 git commit -m "Criando estrutura inicial do projeto"
 
+EXERCICIO 2
+git status
+git add index.html
+git commit -m "Adicionando conteudo ao index.html"
+
+EXERCICIO 3
+git add .
+git commit -m "Adicionando paginas sobre, contato e estilo css"
+
+EXERCICIO 4
+git remote add origin https://github.com/kaiquegrilo/atividade_git
+git branch -M main
+git push -u origin main
+
+EXERCICIO 5
+git status
+git add produtos.html
+git commit -m "Adicionando pagina de produtos"
+git push
+
+EXERCICIO 6
+git log
+git log --oneline
+RESPOSTA DA PERGUNTA: ATÉ O MOMENTO FORAM FEITOS 4 COMMITS NO PROJETO.
+
+EXERCICIO 7
+touch teste.txt
+git add teste.txt
+git commit -m "Adicionando arquivo de teste"
+git push
+
+git rm teste.txt
+git status
+git commit -m "Removendo arquivo de teste"
+git push
